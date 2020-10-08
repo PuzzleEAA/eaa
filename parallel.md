@@ -14,4 +14,6 @@ Pr[M(X)\in r]&=\prod_{i=1}^n Pr[M_i(X_i)\in r_i]\\
 &=e^{\varepsilon}Pr[M_1(X_1^\prime)\in r_1]\prod_{i=2}^n  Pr[M_i(X_i)\in r_i]  +\delta\prod_{i=2}^n Pr[M_i(X_i)\in r_i]\\
 &\leq e^{\varepsilon}Pr[M(X^\prime)\in r]+\delta,
 \end{aligned}$$
-which completes the proof.a
+which completes the proof.
+
+Other references: https://crypto.stackexchange.com/questions/48925/parallel-composition-of-epsilon-delta-differential-privacy; P33 Example 3.2 of ” The Algorithmic Foundations of Differential Privacy”.
